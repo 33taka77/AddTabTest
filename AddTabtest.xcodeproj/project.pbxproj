@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8170252F18C6DCE000136230 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170252E18C6DCE000136230 /* SecondViewController.m */; };
+		8170253218C6E3B700136230 /* First2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170253118C6E3B700136230 /* First2ViewController.m */; };
+		8170253518C6E43700136230 /* Second3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170253418C6E43700136230 /* Second3ViewController.m */; };
 		F958334318C6C4AF00114C29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F958334218C6C4AF00114C29 /* Foundation.framework */; };
 		F958334518C6C4AF00114C29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F958334418C6C4AF00114C29 /* CoreGraphics.framework */; };
 		F958334718C6C4AF00114C29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F958334618C6C4AF00114C29 /* UIKit.framework */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8170252D18C6DCE000136230 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8170252E18C6DCE000136230 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8170253018C6E3B700136230 /* First2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First2ViewController.h; sourceTree = "<group>"; };
+		8170253118C6E3B700136230 /* First2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First2ViewController.m; sourceTree = "<group>"; };
+		8170253318C6E43700136230 /* Second3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Second3ViewController.h; sourceTree = "<group>"; };
+		8170253418C6E43700136230 /* Second3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Second3ViewController.m; sourceTree = "<group>"; };
 		F958333F18C6C4AF00114C29 /* AddTabtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddTabtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F958334218C6C4AF00114C29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F958334418C6C4AF00114C29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +126,12 @@
 				F958335118C6C4AF00114C29 /* AppDelegate.h */,
 				F958335218C6C4AF00114C29 /* AppDelegate.m */,
 				F958335418C6C4AF00114C29 /* Main_iPhone.storyboard */,
+				8170253318C6E43700136230 /* Second3ViewController.h */,
+				8170253418C6E43700136230 /* Second3ViewController.m */,
+				8170253018C6E3B700136230 /* First2ViewController.h */,
+				8170253118C6E3B700136230 /* First2ViewController.m */,
+				8170252D18C6DCE000136230 /* SecondViewController.h */,
+				8170252E18C6DCE000136230 /* SecondViewController.m */,
 				F958335718C6C4AF00114C29 /* Main_iPad.storyboard */,
 				F958335A18C6C4AF00114C29 /* ViewController.h */,
 				F958335B18C6C4AF00114C29 /* ViewController.m */,
@@ -253,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8170252F18C6DCE000136230 /* SecondViewController.m in Sources */,
+				8170253218C6E3B700136230 /* First2ViewController.m in Sources */,
+				8170253518C6E43700136230 /* Second3ViewController.m in Sources */,
 				F958335C18C6C4AF00114C29 /* ViewController.m in Sources */,
 				F958335318C6C4AF00114C29 /* AppDelegate.m in Sources */,
 				F958334F18C6C4AF00114C29 /* main.m in Sources */,
@@ -474,6 +492,7 @@
 				F958337618C6C4AF00114C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F958337718C6C4AF00114C29 /* Build configuration list for PBXNativeTarget "AddTabtestTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +501,7 @@
 				F958337918C6C4AF00114C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

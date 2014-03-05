@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
+- (IBAction)clickedButton:(id)sender;
 @end
 
 @implementation ViewController
@@ -26,4 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickedButton:(id)sender {
+    SecondViewController* controller = [self.storyboard instantiateViewControllerWithIdentifier:@"TabController"];
+    
+    [self.navigationController pushViewController:controller animated:YES];
+}
 @end
